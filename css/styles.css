@@ -3,75 +3,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 :root {
-  --color-red: #fa573a;
-  --color-black: #21242e;
-  --primary-font: "Montserrat", sans-serif;
-  --secondary-font: "Handlee",
-    cursive;
-  --gap: 1rem;
+    --color-red: #fa573a;
+    --color-black: #21242e;
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Handlee",
+        cursive;
+    --gap: 1rem;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-weight: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 16px;
 }
 
 header {
-  font-family: var(--primary-font);
+    font-family: var(--primary-font);
 }
 
 .contacto {
-  background-color: var(--color-black);
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 1em;
+    background-color: var(--color-black);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em;
 
 
-  li {
-    display: inline-block;
+    li {
+        display: inline-block;
 
-    a {
-      color: white;
-      text-decoration: none;
+        a {
+            color: white;
+            text-decoration: none;
 
-      i {
-        color: var(--color-red);
-        margin-right: 5px;
-      }
+            i {
+                color: var(--color-red);
+                margin-right: 5px;
+            }
+        }
     }
-  }
 }
 
 nav {
-  width: 100%;
-  padding: 1.5rem 0;
+    width: 100%;
+    padding: 1.5rem 0;
 
-  .container {
-    justify-content: space-between;
-  }
-
-  figure {
-    width: 12.5rem;
-
-    img {
-      width: 100px;
+    .container {
+        justify-content: space-between;
     }
-  }
 
-  li {
-    display: inline-block;
+    figure {
+        width: 12.5rem;
 
-    a {
-      color: grey;
-      text-decoration: none;
-
-      &:hover {
-        color: var(--color-red);
-      }
+        img {
+            width: 80px;
+        }
     }
-  }
+
+    li {
+        display: inline-block;
+
+        a {
+            color: grey;
+            text-decoration: none;
+
+            &:hover {
+                color: var(--color-red);
+            }
+        }
+    }
 }
