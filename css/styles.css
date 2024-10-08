@@ -75,3 +75,26 @@ nav {
         }
     }
 }
+
+footer {
+
+    background-color: var(--color-black);
+    font-family: var(--primary-font);
+    color: white;
+    padding: 1.25rem;
+    position: sticky;
+
+    .container {
+        display: flex;
+
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: var(--color-red);
+        }
+    }
+}
