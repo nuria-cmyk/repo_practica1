@@ -19,6 +19,10 @@
     font-weight: 16px;
 }
 
+.hamburger {
+    display: none;
+}
+
 .boton {
     display: inline-block;
     padding: 0.600rem;
@@ -32,6 +36,10 @@
 
         i {
             transform: translateX(3px);
+        }
+
+        a {
+            color: var(--color-red)
         }
     }
 
