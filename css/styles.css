@@ -18,6 +18,10 @@
     font-weight: 16px;
 }
 
+body {
+    font-family: var(--primary-font);
+}
+
 .container {
     max-width: 1004px;
     margin: 0 auto;
@@ -27,10 +31,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-header {
-    font-family: var(--primary-font);
 }
 
 .contacto {
@@ -96,7 +96,6 @@ nav {
 footer {
 
     background-color: var(--color-black);
-    font-family: var(--primary-font);
     color: white;
     padding: 1.25rem;
 
@@ -111,6 +110,72 @@ footer {
 
         &:hover {
             color: var(--color-red);
+        }
+    }
+}
+
+.hero {
+    background-image: url(../images/fondo.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #666;
+
+    .container {
+        padding-top: 120px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    h1 {
+        font-family: var(--secondary-font);
+        color: white;
+
+    }
+
+    h4 {
+        font-family: var(--primary-font);
+        color: var(--color-red);
+        font-weight: 500;
+    }
+
+    p {
+        font-family: var(--primary-font);
+    }
+
+
+    .boton {
+        display: inline-block;
+        padding: 0.600rem;
+        margin: 0.6rem 0;
+        background-color: var(--color-red);
+        border: 5px solid var(--color-red);
+
+        a {
+            color: white;
+
+            &:hover {
+                background-color: transparent;
+
+                i {
+                    transform: translateX(3px);
+                }
+            }
         }
     }
 }
