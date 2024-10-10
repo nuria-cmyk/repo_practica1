@@ -1,0 +1,30 @@
+@media(width <=768px) {
+    .servicios .articulos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .servicios .articulos article:last-child {
+        grid-column: 1/3;
+    }
+}
+
+@media(width <=600px) {
+
+
+    .sobrenosotros {
+        display: block;
+
+    }
+
+    .servicios .articulos {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .servicios .articulos article:last-child {
+        grid-column: 1/1;
+    }
+}
