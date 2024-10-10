@@ -225,6 +225,85 @@ footer {
 
 }
 
+.aboutus {
+    text-align: center;
+    margin-top: 20px;
+
+    h2 {
+        font-family: var(--secondary-font);
+        color: var(--color-black);
+
+        span {
+            color: var(--color-red);
+        }
+    }
+
+    figure {
+        width: 400px;
+        height: 300px;
+        rotate: 10deg;
+        border: 1px solid var(--color-red);
+
+        img {
+            width: 100%;
+            rotate: -10deg;
+        }
+
+        &:hover {
+            rotate: 0deg;
+
+            img {
+                rotate: 0deg;
+            }
+        }
+
+    }
+
+    .sobrenosotros {
+        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        padding-bottom: 50px;
+
+        h3 {
+            font-size: 16px;
+        }
+
+        h4 {
+            color: var(--color-red);
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+
+        p {
+            margin-top: 10px;
+            color: grey;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        a {
+            color: var(--color-red);
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .boton {
+            display: inline-block;
+            padding: 0.600rem;
+            margin: 0.6rem 0;
+            background-color: var(--color-red);
+            border: 5px solid var(--color-red);
+
+            a {
+                color: white;
+            }
+        }
+    }
+
+}
 
 .decoracion {
     display: inline-block;
@@ -232,8 +311,8 @@ footer {
     text-align: center;
 
     hr {
-        width: 20px;
-        color: var(--color-red);
+        width: 50px;
+        background-color: var(--color-red);
         margin: 0;
     }
 
@@ -242,4 +321,7 @@ footer {
         position: relative;
         top: - 0.5rem;
     }
+}
+.subir{
+    
 }
